@@ -1,0 +1,75 @@
+
+/*Rodapé*****************************************/		
+footer{
+	text-align: center;
+	margin-top:50px;
+	float:left;
+	background-color:#272727;
+	color:#fff;
+	width: 96%; /*1110px;*/
+	padding: 2%; /*10px;*/
+}
+footer div.blocos-footer{
+	float:left;
+	width: 30%; /*339px*/
+	margin-left: 1.6%;
+	margin-right: 1.6%;
+	height: 100px;	
+	text-align: center;
+}
+footer div.blocos-footer a img{
+	margin-top: 10px;
+}
+footer div.blocos-footer img[src="imagens/icones/telefone.png"]{
+	width: 10% /*64px*/;
+	max-width: 64px;
+	margin-top: 5px;
+	float:left; 
+	padding-left: 12%;
+}
+footer div div#ligue-gratis{
+	float: right;
+	width: 70%; 
+	padding-top: 10px;
+	font-size: 2.4em /*32px*/;
+	text-align: left;
+	color: #d1d1d1;
+}
+footer div div.correio{
+	float: left;
+	width: 28%; 
+	min-width: 100px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 21px;
+	margin-left: 10%;
+	border-radius: 10px;
+	font-size: 2.4em;
+	text-align: center;
+	color: #272727;
+	background-color:#d1d1d1;
+}
+footer div div.correio a{
+	text-decoration: none;
+	color: #272727;
+}
+.photo{
+	width: 10%;
+}
+.h3-footer{
+	font-weight: normal;
+}
+
+
+@media screen and (max-width: 960px){
+
+footer div div#ligue-gratis{
+	font-size: 2em;
+}
+footer div div.correio{
+	font-size: 2em;
+}
+footer div.blocos-footer img[src="imagens/icones/telefone.png"]{
+	margin-top: 10px;
+}
+}

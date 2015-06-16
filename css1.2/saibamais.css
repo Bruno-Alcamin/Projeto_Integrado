@@ -1,0 +1,121 @@
+
+
+/*Foto do saiba mais*****************************************/	
+	
+aside{
+	width:30%; /*357,5 px*/
+	float:left;
+	height:300px;
+	margin-top:120px;
+	padding-left:8%;
+	padding-right:8%;
+}
+
+.compra{
+	text-align:left;
+}
+
+.acc{
+	padding-left:6%;
+}
+
+
+.acc2{
+	padding-right:6%;
+}
+
+.comprabtn{
+	float:left;
+}	
+
+.vende{
+	text-align:right;
+	
+}
+h1.vende span{
+	color:#5ea20d;
+}
+h1.compra span{
+	color:#f70;
+}
+
+
+/*Texto do saiba mais*****************************************/	
+.saiba{
+	width:38%;
+	height:300px;
+	float:left;
+	margin-top:120px;
+	padding-left:8%;
+	padding-right:8%;
+}
+	
+nav > p {
+	color:#aaa;
+	font-size:1.231em;
+	padding-top:3%;
+}
+
+nav > h1{
+margin-top:10%;
+font-size:4.0em;
+width:100%;
+text-align:left;
+}
+
+.top{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.topvideo{
+	margin-top:30px;
+}
+.degrade{
+	background-image: linear-gradient(#ccc, #fff);
+	background-repeat: repeat-x;
+	background-position: 0px -200px;
+}
+
+.botfr{
+	width:21%;
+	position:absolute;
+	margin-top:3%;
+	font-size:1.923em;
+	font-weight:bold;
+	background-color:#f70;
+	text-decoration:none;
+	
+}
+.botfrvender{
+	background-color:#5ea20d;
+	right: 8%;
+}
+
+.boton{
+  text-decoration:none;
+  width:16%;
+  color: #fff;
+  text-align: center;
+  padding: 0.8%;
+  border-radius: 8px;
+  min-width:240px;
+  
+}
+  
+video[title="videovender"]{
+	width:100%;
+	height: 230px;
+	border: 15px solid #272727 ;
+}
+
+video[title="videocomprar"]{
+	width:100%;
+	height: 230px;
+	border: 15px solid #272727;
+}
+
+@media screen and (max-width:960px){
+	nav > h1{
+	font-size:3.615em;
+}
+}

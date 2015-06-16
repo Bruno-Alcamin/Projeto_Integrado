@@ -1,0 +1,220 @@
+
+
+/*parte do video*****************************************/	
+header{
+	background-color: rgba(255,255,255,0.1);
+}
+
+div#crr3 > h1{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 3.692em;
+	position:absolute;
+	top:20%;
+	text-align:center;
+	left:10%;
+	color:#fff;
+	width:80%;
+}
+#crr3{
+	width:100%;
+	position:relative;
+	margin-bottom:0px;
+}
+
+#crr3 > span{
+	position:absolute;
+	top:90%;
+}
+nav > span{
+	position: absolute;
+	top: 196%;
+}
+
+.boxvideo{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	display:inline;
+}
+
+
+video[title="nossovideo"]{
+	width:40%;
+	position:absolute;
+	top:35%;
+	left:8%;
+	border: 15px solid black ;
+	border-radius:10px;
+	z-index:99;
+	
+}
+
+#crr3 > a[href="compra.html"]{
+	position:absolute;
+	top:40%;
+	right:8%;
+	font-size:2.692em;
+	font-weight:bold;
+	background-color:#f70;
+	
+}
+
+#crr3 > a[href="vender.html"]{
+	position:absolute;
+	top:60%;
+	right:8%;
+	font-size:2.692em;
+	font-weight:bold;
+	background-color:#5ea20d;
+	
+}
+
+img[alt="next"]{
+	width:4%;
+	position:absolute;
+	top:85%;
+	right:47.8%;
+}
+img[alt="next2"]{
+	width:4%;
+	position:absolute;
+	top:185%;
+	right:47.8%;
+}
+
+.boton1{
+
+	text-decoration:none;
+	width:16%;
+	color: #fff;
+	text-align: center;
+	padding: 0.8%;
+	border-radius: 8px;
+	min-width:190px;
+  }
+
+
+
+
+/*Foto do saiba mais*****************************************/	
+aside{
+	width:56%;
+	float:left;
+	height:680px;
+}
+
+
+
+img[alt="fundo2"]{
+	width:75%; 
+	margin-left:18%;	
+}
+
+/*Texto do saiba mais*****************************************/	
+.saiba{
+	width:36%;
+	height:400px;
+	float:left;
+	padding-right:8%;
+}
+	
+nav > p {
+	color:#aaa;
+	font-size:1.231em;
+	text-align:right;
+	padding-top:3%;
+}
+
+nav > h1{
+margin-top:15%;
+font-size:4.2em;
+text-align:right;
+color:#272727;
+
+}
+
+nav > a[href="saibamais.html"]{
+	width:21%;
+	position:absolute;
+	margin-top:6%;
+	right: 8%;
+	font-size:2.692em;
+	font-weight:bold;
+	background-color:#f00;
+	text-decoration:none;
+}
+
+
+	
+/*Pesquisar*****************************************/	
+
+main{
+	width: 100%;
+	float:left;
+}
+
+input[name="buscaprincipal"]{/* BUSCA DA PÁGINA*/
+	margin-left:12%;
+	width:62%;
+	height: 30px;
+	margin-bottom: 2%;
+	display:inline;
+	
+}
+img[alt="iconebuscaPagina"]{
+	width: 2%;
+	height: 2%;
+	margin-left:1%;
+}
+
+main > h2{
+	margin-left:40%;
+	
+}
+
+.conteudo{
+	padding-left:10.5%;
+	padding-right:10.5%;	
+	width: 79%;
+}
+
+footer{
+	top:20px;
+}
+
+@media screen and (max-width:960px){
+
+	
+	div#crr3 > h1{
+	font-size: 3.092em;
+}
+
+nav > h1{
+margin-top:20%;
+font-size:2.615em;
+}
+
+.saiba{
+	height:360px;
+}
+
+aside{
+	height:540px;
+}
+
+img[alt="fundo2"]{
+	width:95%; 	
+}
+
+main > h2{
+	margin-left:38%;
+	padding:2%;
+}
+img[alt="next2"]{
+	top:165%;
+}
+nav > span{
+	position: absolute;
+	top: 162%;
+}
+}
